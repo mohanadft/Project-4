@@ -1,0 +1,285 @@
+/* Start Variable */
+
+:root {
+  --main-color: #6163ff;
+}
+
+/* End Variables */
+
+/* Start Global Rules */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #212529;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 30px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #3c3d88;
+}
+
+/* Start Header */
+header nav .sign-up {
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  padding: 10px 25px 10px 25px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 0.8rem;
+  transition: 0.2s all ease-in;
+}
+
+header nav .sign-up:hover {
+  background-color: white;
+  color: var(--main-color) !important;
+}
+
+@media (max-width: 1100px) {
+  header nav .sign-up {
+    margin: 0;
+  }
+}
+/* End Header */
+
+/* Start Welcome Section */
+
+.welcome {
+  padding: 75px;
+}
+
+.welcome h1 {
+  font-weight: 900;
+}
+
+.welcome h1 span {
+  color: var(--main-color);
+}
+
+.welcome p {
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  word-spacing: 0.1rem;
+  color: #97a4ae;
+}
+
+.welcome button:first-of-type {
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  padding: 10px 25px 10px 25px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 0.8rem;
+  transition: 0.2s all ease-in;
+}
+
+.welcome button:nth-child(2) {
+  background-color: #25282c;
+  border: 0;
+  margin-left: 20px;
+  padding: 10px 25px 10px 25px;
+  font-weight: 800;
+  font-size: 0.8rem;
+  transition: 0.2s all ease-in;
+}
+
+.welcome button:first-of-type:hover {
+  background-color: white;
+  color: var(--main-color) !important;
+}
+
+.welcome button:nth-child(2):hover {
+  background-color: var(--main-color);
+}
+
+/* End Welcome Section */
+/* Start Feature Section */
+
+.feature h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  word-spacing: 0.1rem;
+  color: #97a4ae;
+}
+
+.feature .p-feature i {
+  background-color: var(--main-color);
+  padding: 13px;
+}
+
+.feature .container {
+  border-bottom: 1px solid rgb(73, 73, 73);
+}
+/* End Feature Section */
+
+.about h1 {
+  font-weight: 900;
+}
+
+.about .row h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.about p {
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  word-spacing: 0.1rem;
+  color: #97a4ae;
+}
+
+.about h4 {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+
+.about .row {
+  margin-top: 100px !important;
+  margin-bottom: 20px !important;
+}
+
+.about .container {
+  border-bottom: 1px solid rgb(73, 73, 73);
+}
+
+.customer h1 {
+  font-weight: 900;
+}
+
+.customer i {
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+
+.customer .container p {
+  font-size: 1rem;
+  font-weight: 400;
+  word-spacing: 0.1rem;
+  color: #97a4ae;
+}
+
+.customer .container .row div {
+  background-color: #25282c;
+  padding: 1rem 1.7rem;
+}
+
+.customer .container .row p {
+  color: #97a4ae;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.customer .container .row h4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.customer .container .row h4 span {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1cb58a;
+}
+
+/* Start Contact */
+
+.contact .container {
+  background-color: var(--main-color);
+  text-align: center;
+}
+
+.contact .container h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.contact .container input {
+  padding: 5px 10px;
+}
+
+@med /* End Contact */
+
+/* Start Footer */
+
+footer a {
+  border: 0 !important;
+}
+
+footer .author {
+  color: var(--main-color);
+  letter-spacing: 1px;
+}
+
+footer .author:hover {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+footer .heart {
+  color: red;
+  padding: 0 4px 0 4px;
+}
+
+footer .face:hover,
+.twit:hover,
+.linked:hover,
+.google:hover,
+.insta:hover,
+.git:hover {
+  background-color: transparent !important;
+}
+
+footer .face:hover {
+  color: #3b5998 !important;
+}
+
+footer .twit:hover {
+  color: #1da1f2 !important;
+}
+
+footer .google:hover {
+  color: #dd4b39 !important;
+}
+
+footer .insta:hover {
+  color: #ac2bac !important;
+}
+
+footer .linked:hover {
+  color: #0082ca !important;
+}
+
+footer .git:hover {
+  color: #555454 !important;
+}
+@media (max-width: 565px) {
+  footer {
+    font-size: 0.8rem;
+  }
+  footer i {
+    font-size: 0.8rem !important;
+  }
+}
+/* End Footer */
